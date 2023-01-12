@@ -16,6 +16,7 @@ app.get("/home", function(req,res){
     res.send("This will be our homepage for now.");
 });
 
+
 app.listen(port, function(){
     console.log("Running on localhost 3000")
 });
